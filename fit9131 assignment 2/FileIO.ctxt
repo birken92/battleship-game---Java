@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FileIO()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ FILEIO\n
+comment1.params=
+comment1.target=java.lang.String\ readLinesToFile()
+comment1.text=\n\ Read\ information\ from\ gamesettings.txt\ file\n\ Which\ is\ used\ to\ set\ the\ gamesettings\ for\ the\ battleship\ game\n\ @return\ name\ returns\ the\ value\ and\ information\ from\ the\ file\ gamesettings.txt\n\ @return\ name\ this\ value\ is\ used\ in\ gameclass\ for\ designing\ how\ the\ game\ is\ played\n\ @throws\ exception\ for\ if\ the\ file\ does\ not\ exist\ or\ other\ errors\n
+comment2.params=playerscore\ compscore
+comment2.target=void\ writeToFile(int,\ int)
+comment2.text=\n\ Writes\ to\ file\ whos\ name\ is\ Gameoutcome\n\ Giving\ the\ final\ game\ outcome\ the\ values\ and\ who\ won\n\ @param\ playerscore\ is\ the\ players\ score\n\ @param\ compscore\ is\ the\ computers\ score\ for\ the\ game\n\ @throws\ exception\ for\ if\ the\ file\ does\ not\ exist\ or\ other\ errors\n
+numComments=3

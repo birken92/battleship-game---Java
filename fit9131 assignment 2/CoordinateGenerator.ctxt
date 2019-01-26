@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CoordinateGenerator()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ CoordinateGenerator\n
+comment1.params=min\ max
+comment1.target=int\ randomNumberGenerator(int,\ int)
+comment1.text=\n\ Random\ number\ generator\n\ Putting\ in\ the\ min\ and\ max\ number,\ this\ will\ be\ used\ in\ the\ game\ class.\ \n\ So\ that\ the\ computer\ can\ work\ and\ play\ against\ you.\ \n\ @param\ minimum\ value\ given\ by\ the\ system\n\ @param\ maximum\ value\ given\ by\ the\ system\ used\ in\ gameclass\n\ @return\ a\ random\ number\ from\ min\ and\ max\ given\ by\ the\ system\n
+comment2.params=maximumNumber\ minimumNumber
+comment2.target=int\ generateRandom(int,\ int)
+numComments=3

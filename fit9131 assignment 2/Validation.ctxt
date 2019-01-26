@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Validation()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Validation\n
+comment1.params=shipname
+comment1.target=boolean\ stringLengthWithinRange(java.lang.String)
+comment1.text=\n\ Check\ if\ the\ length\ of\ Ship\ name\ is\ between\ 3\ to\ 15\ characters.\ \n\ Used\ in\ previous\ assignment\n\ @param\ shipname\ is\ the\ name\ entered\ by\ user\n\ @return\ check\ if\ the\ length\ of\ shipname\ is\ between\ 3-15\ character\n
+comment2.params=number\ size
+comment2.target=boolean\ checkPositionXY(int,\ int)
+comment2.text=\n\ Check\ that\ the\ value\ of\ X\ and\ Y\ is\ between\ 0-\ or\ the\ size\n\ This\ is\ defined\ in\ the\ file\ gamesettings.txt.\n\ @param\ xyPos\ is\ the\ x\ or\ y\ position\ given\ by\ the\ user\n\ @return\ check\ if\ position\ entered\ is\ between\ the\ grid\ size,\ else\ gives\ false\n
+comment3.params=xyPos
+comment3.target=boolean\ checkNumeric(java.lang.String)
+comment3.text=\n\ Checking\ if\ the\ value\ is\ numeric,\ so\ both\ X\ and\ Y\ are\ numeric\ values\n\ @param\ xyPos\ is\ the\ x\ or\ y\ position\ given\ by\ the\ user\n\ @return\ checking\ if\ the\ value\ given\ by\ user\ only\ contains\ numbers,\ else\ returns\ false\n
+numComments=4

@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ShipList()
+comment0.text=\n\ Default\ Constructor\ for\ objects\ of\ class\ ShipList\n
+comment1.params=shipName\ xPos\ yPos\ noOfHitsMade\ noOfHitsNeeded
+comment1.target=void\ addShipName(java.lang.String,\ int,\ int,\ int,\ int)
+comment1.text=\n\ Adding\ ships\ to\ the\ arrayList,\ taking\ the\ inputs\ from\ game\ class\ and\ saving\ it\ in\ an\ ArrayList\n\ @param\ shipName\ name\ of\ the\ individual\ ship\n\ @param\ xPos\ the\ x\ position\ given\ by\ player\n\ @param\ yPos\ the\ x\ position\ given\ by\ player\n\ @param\ noOfHitsmade\ the\ number\ of\ hits\ made\n\ @param\ noOfHitsNeeded\ the\ number\ of\ hits\ needed\n
+comment2.params=
+comment2.target=boolean\ checkIfAllDestroyed()
+comment2.text=\n\ checking\ if\ all\ ships\ are\ destroyed.\ \n\ If\ all\ are\ destroyed\ then\ the\ game\ ends\n\ @param\ xPos\ the\ x\ position\ given\ by\ computer\ or\ player\n\ @param\ yPos\ the\ x\ position\ given\ by\ computer\ or\ player\n\ @return\ returns\ true\ or\ false\ if\ x\ and\ y\ pos\ is\ the\ same\ as\ another\ ship\n
+comment3.params=xPos\ yPos
+comment3.target=boolean\ checkIf1LifeLeft(int,\ int)
+comment3.text=\n\ Will\ check\ if\ the\ ship\ have\ 1\ life\ left\n\ if\ one\ life\ is\ left\ then\ the\ ship\ will\ be\ destroyed\n\ @param\ xPos\ the\ x\ position\ given\ by\ computer\ or\ player\n\ @param\ yPos\ the\ x\ position\ given\ by\ computer\ or\ player\n\ @return\ returns\ true\ or\ false\ if\ x\ and\ y\ pos\ is\ the\ same\ as\ another\ ship\n\ @return\ returns\ true\ if\ getNoNeeded\ not\ equal\ to\ 0\n
+comment4.params=xPos\ yPos
+comment4.target=boolean\ checkPosition(int,\ int)
+comment4.text=\n\ Checking\ if\ the\ position\ is\ filled,\ if\ the\ position\ is\ filled\n\ the\ the\ computer\ needs\ to\ put\ the\ ship\ in\ another\ position\n\ @param\ xPos\ the\ x\ position\ given\ by\ computer\ or\ player\n\ @param\ yPos\ the\ x\ position\ given\ by\ computer\ or\ player\n\ @return\ returns\ true\ or\ false\ if\ x\ and\ y\ pos\ is\ the\ same\ as\ another\ ship\n
+comment5.params=xPos\ yPos
+comment5.target=boolean\ checkIfShipDamaged(int,\ int)
+comment5.text=\n\ Goal\ of\ this\ method\ is\ to\ check\ if\ the\ ship\ is\ damaged,\n\ if\ the\ ship\ is\ damaged\ then\ it\ changes\ into\ a\ D\n\ @param\ xPos\ the\ x\ position\ given\ by\ computer\ or\ player\n\ @param\ yPos\ the\ x\ position\ given\ by\ computer\ or\ player\n\ @return\ returns\ true\ if\ ship\ is\ damaged\n
+comment6.params=xPos\ yPos
+comment6.target=boolean\ checkShipHit(int,\ int)
+comment6.text=\n\ Checking\ if\ the\ computer\ or\ player\ hit\ a\ ship\n\ if\ it\ does\ not\ hit\ the\ ship,\ then\ it\ becomes\ false\n\ xPos\ and\ yPos\ comes\ from\ user\ input\ or\ computer\ input\ that\ is\ randomly\ generated\n\ @param\ xPos\ the\ x\ position\ given\ by\ computer\ or\ player\n\ @param\ yPos\ the\ x\ position\ given\ by\ computer\ or\ player\n\ @return\ returns\ true\ or\ false\ if\ x\ and\ y\ pos\ is\ the\ same\ as\ another\ ship\n\ @return\ checks\ if\ getNoNeeded\ is\ greater\ than\ 0,\ if\ so\ then\ it\ returns\ true\n
+comment7.params=xPos\ yPos
+comment7.target=boolean\ setShips(int,\ int)
+comment7.text=\n\ xPos\ and\ yPos\ comes\ from\ user\ input\ or\ computer\ input\ that\ is\ randomly\ generated\n\ @param\ xPos\ the\ x\ position\ given\ by\ computer\ or\ player\n\ @param\ yPos\ the\ x\ position\ given\ by\ computer\ or\ player\n\ @return\ returns\ true\ or\ false\ if\ x\ and\ y\ pos\ is\ the\ same\ as\ another\ ship\n
+numComments=8

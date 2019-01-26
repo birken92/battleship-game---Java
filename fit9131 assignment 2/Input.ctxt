@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Input()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Input\n
+comment1.params=
+comment1.target=void\ gameInput()
+comment1.text=\n\ Start\ of\ the,\ only\ click\ enter\ to\ continue\n
+comment2.params=
+comment2.target=java.lang.String\ userInput()
+comment2.text=\n\ Get\ input\ from\ user\n\ @return\ returning\ user\ input\ to\ gameclass\n
+numComments=3
